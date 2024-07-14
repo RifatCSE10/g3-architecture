@@ -1,0 +1,46 @@
+@media screen and (max-width:576px){
+    .navbar{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .banner-img{
+        width: auto;
+    }
+
+    .banner-text{
+        width: auto;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:1000px) {
+    
+    .banner-img{
+        width: auto;
+    }
+
+    .banner-text{
+        width: auto;
+        padding: 0 15px;
+    }
+
+}
+
+
+@media screen and (min-width:200px) and (max-width:415px) {
+    
+    .banner-img{
+        width: auto;
+    }
+
+    .banner-text{
+        width: auto;
+        padding: 0 15px;
+    }
+
+    .banner-btn{
+        margin-top: 35px;
+    }
+
+}
