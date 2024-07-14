@@ -1,3 +1,7 @@
+/* <+=================================+
+        Header section
+   <+=================================+ */
+
 @media screen and (max-width:576px){
     .navbar{
         flex-direction: column;
@@ -41,6 +45,59 @@
 
     .banner-btn{
         margin-top: 35px;
+    }
+
+}
+
+
+
+/* <+=================================+
+        Feature-1 section
+   <+=================================+ */
+
+
+   @media screen and (max-width:576px){
+
+    .feature-1{
+        width: auto;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature-1 .feature-1-txt {
+        padding: 0;
+        text-align: center;
+        width: auto;
+    }
+
+    .feature-1 .img-gallery{
+        width: auto;
+    }
+    .feature-1 .feature-1-txt h1{
+        text-align: center;
+    }
+
+    .feature-1 .feature-1-txt p{
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (min-width:576px) and (max-width:1000px){
+
+    .feature-1{
+        width: auto;
+    }
+    .feature-1 .img-gallery{
+        width: auto;
+    }
+    .feature-1 .feature-1-txt {
+        padding: 2%;
+        text-align: center;
+        width: auto;
     }
 
 }

@@ -20,6 +20,10 @@ body {
   background: rgb(255, 144, 14);
 }
 
+.hide {
+  display: none;
+}
+
 /* <+=================================+
         Layour design
    <+=================================+ */
@@ -39,6 +43,8 @@ body {
 .feature-1 {
   border: 1px solid black;
   grid-column: 2/12;
+  max-width: 993px;
+  margin: 0 auto;
 }
 
 .feature-2 {
@@ -166,9 +172,16 @@ body {
 }
 
 .feature-1 .img-gallery {
+  height: 500px;
+  width: 500px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
+}
+
+.feature-1 .img-gallery img{
+    height: fit-content;
+    width: 235px;
 }
 
 .feature-1 .feature-1-txt {
@@ -203,21 +216,18 @@ body {
   text-align: left;
 }
 
-
-.feature-1-btn{
-    height: 44px;
-    width: 124px;
-    border: none;
-    border-radius: 8px;
-    color: rgb(255, 255, 255);
-    font-family: Work Sans;
-    font-size: 0.86rem;
-    font-weight: 600;
-    line-height: 16pxpx;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-top: 20px;
-    cursor: pointer;
-    
-    
+.feature-1-btn {
+  height: 44px;
+  width: 124px;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 16pxpx;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
 }
