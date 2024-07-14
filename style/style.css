@@ -25,7 +25,7 @@ body {
 }
 
 /* <+=================================+
-        Layour design
+        Layout design
    <+=================================+ */
 
 .container {
@@ -49,7 +49,11 @@ body {
 
 .feature-2 {
   border: 1px solid black;
-  grid-column: 2/12;
+  grid-column: 1/-1;
+  max-width: 993px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .fact {
@@ -179,9 +183,9 @@ body {
   gap: 16px;
 }
 
-.feature-1 .img-gallery img{
-    height: fit-content;
-    width: 235px;
+.feature-1 .img-gallery img {
+  height: fit-content;
+  width: 235px;
 }
 
 .feature-1 .feature-1-txt {
@@ -230,4 +234,107 @@ body {
   text-align: center;
   margin-top: 20px;
   cursor: pointer;
+}
+
+/* <+=================================+
+       Feature section-2
+   <+=================================+ */
+
+.feature-2-text {
+  width: 403px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.feature-2-text .feature-2-heading {
+  width: 400px;
+}
+
+.feature-2-text .feature-2-heading h1 {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 1.94rem;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.feature-2-text .feature-2-heading p {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 0.69rem;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.feature-2-text .text-item {
+  width: 350px;
+}
+
+.feature-2-text .text-item h2 {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.feature-2-text .text-item p {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 0.69rem;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.feature-2-img {
+  width: 550px;
+  position: relative;
+}
+
+.feature-2-img .img-box {
+  width: 485px;
+  position: relative;
+  left: 10%;
+}
+
+.feature-2-img .img-box img {
+  width: 100%;
+}
+
+.experience {
+  width: 235px;
+  height: 138px;
+  position: absolute;
+  top: 80%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.experience h1 {
+  font-weight: 2.8rem;
+  color: #ffff;
+  font-weight: 700;
+  font-family: Work Sans;
+  text-align: center;
+}
+
+#exp {
+  font-size: 1rem;
+  color: #ffff;
+  font-weight: 500;
 }
