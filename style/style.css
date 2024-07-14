@@ -42,7 +42,7 @@ body {
 
 .feature-1 {
   border: 1px solid black;
-  grid-column: 2/12;
+  grid-column: 1/-1;
   max-width: 993px;
   margin: 0 auto;
 }
