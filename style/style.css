@@ -154,3 +154,70 @@ body {
 .banner-img img {
   width: 100%;
 }
+
+/* <+=================================+
+        Feature-1 section
+   <+=================================+ */
+
+.feature-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-1 .img-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.feature-1 .feature-1-txt {
+  padding-left: 6%;
+}
+
+.feature-1 .feature-1-txt h1 {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 1.94rem;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#text-1 {
+  color: rgb(19, 19, 19);
+}
+
+#text-2 {
+  color: rgb(255, 144, 14);
+}
+
+.feature-1 .feature-1-txt p {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 0.69rem;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+
+.feature-1-btn{
+    height: 44px;
+    width: 124px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 0.86rem;
+    font-weight: 600;
+    line-height: 16pxpx;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    
+    
+}
